@@ -8,7 +8,9 @@ Klipper config for Prusa Clone MK3 BEAR 3D printer
 * Stepper motors Z-axis, Trapezoid nuts, Y-carriage, Linear bearings LM8UU, Smooth PEI Print Sheet bought from [Prusa store](https://www.prusa3d.com/category/mk3-mk3s-mk3s/)
 
 #### Notes 
-Minor twist in X-axis (~0.2mm). Software compensation required.
+~~Minor twist in X-axis (~0.2mm). Software compensation required.~~
+
+SOLVED by new top/bot z axis mounts
 * [Axis Twist Compensation](https://www.klipper3d.org/Axis_Twist_Compensation.html)
 * [https://github.com/Klipper3d/klipper/pull/6048](https://github.com/Klipper3d/klipper/pull/6048)
 
