@@ -10,14 +10,11 @@ Klipper config for Prusa Clone MK3 BEAR 3D printer
 * Stepper motors Z-axis, Trapezoid nuts, Y-carriage, Linear bearings LM8UU, Smooth PEI Print Sheet bought from [Prusa store](https://www.prusa3d.com/category/mk3-mk3s-mk3s/)
 * MCU - [BigTreeTech SKR 2](https://www.anodas.lt/en/biqu-skr-2-motherboard-for-3d-printers)
 * Case [Universal BTT SKR V1.3, V1.4 & V2](https://www.thingiverse.com/thing:4178177) and [Modules for Universal Boxes](https://www.thingiverse.com/thing:4210933)
+* [Voron StealthBurner Mount for Biqu / BTT MicroProbe](https://www.printables.com/model/937492-voron-stealthburner-mount-for-biqu-btt-microprobe/files)
 
-#### Notes 
-~~Minor twist in X-axis (~0.2mm). Software compensation required.~~
+#### Notes
 
-SOLVED by new top/bot z axis mounts
-* [Axis Twist Compensation](https://www.klipper3d.org/Axis_Twist_Compensation.html)
-* [https://github.com/Klipper3d/klipper/pull/6048](https://github.com/Klipper3d/klipper/pull/6048)
-
+...
 
 ## ToDo
 - [x] Calibrate min max of gantry
@@ -48,6 +45,7 @@ SOLVED by new top/bot z axis mounts
 * Tuning
   * [Ellis' Print-Tuning-Guide](https://ellis3dp.com/Print-Tuning-Guide/)
   * [Finding the axis limits](https://github.com/rootiest/zippy_guides/blob/main/guides/axis_limits.md)
+  * (Prusa Filament Material Guide)[https://help.prusa3d.com/filament-material-guide]
 * Configuration examples
   * [Klipper3d/klipper](https://github.com/Klipper3d/klipper/tree/master/config)
   * [Kliper on Prusa MK3s Example](https://github.com/dz0ny/klipper-prusa-mk3s/)
@@ -55,6 +53,7 @@ SOLVED by new top/bot z axis mounts
   * [Klipper probe config for the BIQU Microprobe (V1/V2)](https://gist.github.com/utlandr/c3dab6bbcca1fc19dfc402d81cfd75e4)
   * [Orbiter v2.0 Summary (extruder cfg)](https://www.orbiterprojects.com/orbiter-v2-0/)
   * [Voron-Switchwire config](https://github.com/VoronDesign/Voron-Switchwire/blob/master/Firmware/skr_mini_e3_v2_config.cfg)
+  * [https://github.com/simplisticton/v2-2566config](https://github.com/simplisticton/v2-2566config)
 * Macros
   * [klipper-macros](https://github.com/jschuh/klipper-macros)
   * [A better print_start macro](https://github.com/jontek2/A-better-print_start-macro)
